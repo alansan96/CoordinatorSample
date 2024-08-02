@@ -13,6 +13,21 @@
 		698F2D3C2C5B72F1000EFECD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D3B2C5B72F1000EFECD /* Base */; };
 		698F2D3E2C5B72F3000EFECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D3D2C5B72F3000EFECD /* Assets.xcassets */; };
 		698F2D412C5B72F3000EFECD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D402C5B72F3000EFECD /* Base */; };
+		698F2D492C5B739C000EFECD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D482C5B739C000EFECD /* Coordinator.swift */; };
+		698F2D502C5B7689000EFECD /* FirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D4E2C5B7689000EFECD /* FirstController.swift */; };
+		698F2D512C5B7689000EFECD /* FirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D4F2C5B7689000EFECD /* FirstController.xib */; };
+		698F2D582C5B793C000EFECD /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D562C5B793C000EFECD /* ProfileController.swift */; };
+		698F2D592C5B793C000EFECD /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D572C5B793C000EFECD /* ProfileController.xib */; };
+		698F2D5E2C5B7951000EFECD /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D5C2C5B7951000EFECD /* SettingController.swift */; };
+		698F2D5F2C5B7951000EFECD /* SettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D5D2C5B7951000EFECD /* SettingController.xib */; };
+		698F2D632C5B8C73000EFECD /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D612C5B8C73000EFECD /* CategoriesController.swift */; };
+		698F2D642C5B8C73000EFECD /* CategoriesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D622C5B8C73000EFECD /* CategoriesController.xib */; };
+		698F2D682C5B8C90000EFECD /* CartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D662C5B8C90000EFECD /* CartController.swift */; };
+		698F2D692C5B8C90000EFECD /* CartController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D672C5B8C90000EFECD /* CartController.xib */; };
+		698F2D6D2C5B8CCB000EFECD /* ProductListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D6B2C5B8CCB000EFECD /* ProductListController.swift */; };
+		698F2D6E2C5B8CCB000EFECD /* ProductListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D6C2C5B8CCB000EFECD /* ProductListController.xib */; };
+		698F2D722C5B8CED000EFECD /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698F2D702C5B8CED000EFECD /* ProductDetailController.swift */; };
+		698F2D732C5B8CED000EFECD /* ProductDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 698F2D712C5B8CED000EFECD /* ProductDetailController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		698F2D3D2C5B72F3000EFECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		698F2D402C5B72F3000EFECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		698F2D422C5B72F3000EFECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698F2D482C5B739C000EFECD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		698F2D4E2C5B7689000EFECD /* FirstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstController.swift; sourceTree = "<group>"; };
+		698F2D4F2C5B7689000EFECD /* FirstController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstController.xib; sourceTree = "<group>"; };
+		698F2D562C5B793C000EFECD /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		698F2D572C5B793C000EFECD /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
+		698F2D5C2C5B7951000EFECD /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		698F2D5D2C5B7951000EFECD /* SettingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingController.xib; sourceTree = "<group>"; };
+		698F2D612C5B8C73000EFECD /* CategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		698F2D622C5B8C73000EFECD /* CategoriesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesController.xib; sourceTree = "<group>"; };
+		698F2D662C5B8C90000EFECD /* CartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartController.swift; sourceTree = "<group>"; };
+		698F2D672C5B8C90000EFECD /* CartController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartController.xib; sourceTree = "<group>"; };
+		698F2D6B2C5B8CCB000EFECD /* ProductListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListController.swift; sourceTree = "<group>"; };
+		698F2D6C2C5B8CCB000EFECD /* ProductListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListController.xib; sourceTree = "<group>"; };
+		698F2D702C5B8CED000EFECD /* ProductDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		698F2D712C5B8CED000EFECD /* ProductDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,14 @@
 		698F2D332C5B72F1000EFECD /* CoordinatorSample */ = {
 			isa = PBXGroup;
 			children = (
+				698F2D6F2C5B8CCF000EFECD /* ProductDetailController */,
+				698F2D6A2C5B8CB2000EFECD /* ProductListController */,
+				698F2D652C5B8C80000EFECD /* CartController */,
+				698F2D602C5B8C61000EFECD /* CategoriesController */,
+				698F2D552C5B792E000EFECD /* SettingController */,
+				698F2D542C5B7926000EFECD /* ProfileController */,
+				698F2D522C5B790D000EFECD /* FirstController */,
+				698F2D482C5B739C000EFECD /* Coordinator.swift */,
 				698F2D342C5B72F1000EFECD /* AppDelegate.swift */,
 				698F2D362C5B72F1000EFECD /* SceneDelegate.swift */,
 				698F2D382C5B72F1000EFECD /* ViewController.swift */,
@@ -65,6 +103,69 @@
 				698F2D422C5B72F3000EFECD /* Info.plist */,
 			);
 			path = CoordinatorSample;
+			sourceTree = "<group>";
+		};
+		698F2D522C5B790D000EFECD /* FirstController */ = {
+			isa = PBXGroup;
+			children = (
+				698F2D4E2C5B7689000EFECD /* FirstController.swift */,
+				698F2D4F2C5B7689000EFECD /* FirstController.xib */,
+			);
+			path = FirstController;
+			sourceTree = "<group>";
+		};
+		698F2D542C5B7926000EFECD /* ProfileController */ = {
+			isa = PBXGroup;
+			children = (
+				698F2D562C5B793C000EFECD /* ProfileController.swift */,
+				698F2D572C5B793C000EFECD /* ProfileController.xib */,
+			);
+			path = ProfileController;
+			sourceTree = "<group>";
+		};
+		698F2D552C5B792E000EFECD /* SettingController */ = {
+			isa = PBXGroup;
+			children = (
+				698F2D5C2C5B7951000EFECD /* SettingController.swift */,
+				698F2D5D2C5B7951000EFECD /* SettingController.xib */,
+			);
+			path = SettingController;
+			sourceTree = "<group>";
+		};
+		698F2D602C5B8C61000EFECD /* CategoriesController */ = {
+			isa = PBXGroup;
+			children = (
+				698F2D612C5B8C73000EFECD /* CategoriesController.swift */,
+				698F2D622C5B8C73000EFECD /* CategoriesController.xib */,
+			);
+			path = CategoriesController;
+			sourceTree = "<group>";
+		};
+		698F2D652C5B8C80000EFECD /* CartController */ = {
+			isa = PBXGroup;
+			children = (
+				698F2D662C5B8C90000EFECD /* CartController.swift */,
+				698F2D672C5B8C90000EFECD /* CartController.xib */,
+			);
+			path = CartController;
+			sourceTree = "<group>";
+		};
+		698F2D6A2C5B8CB2000EFECD /* ProductListController */ = {
+			isa = PBXGroup;
+			children = (
+				698F2D6B2C5B8CCB000EFECD /* ProductListController.swift */,
+				698F2D6C2C5B8CCB000EFECD /* ProductListController.xib */,
+			);
+			path = ProductListController;
+			sourceTree = "<group>";
+		};
+		698F2D6F2C5B8CCF000EFECD /* ProductDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				698F2D702C5B8CED000EFECD /* ProductDetailController.swift */,
+				698F2D712C5B8CED000EFECD /* ProductDetailController.xib */,
+			);
+			path = ProductDetailController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +227,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				698F2D3E2C5B72F3000EFECD /* Assets.xcassets in Resources */,
+				698F2D692C5B8C90000EFECD /* CartController.xib in Resources */,
+				698F2D592C5B793C000EFECD /* ProfileController.xib in Resources */,
+				698F2D642C5B8C73000EFECD /* CategoriesController.xib in Resources */,
+				698F2D6E2C5B8CCB000EFECD /* ProductListController.xib in Resources */,
+				698F2D512C5B7689000EFECD /* FirstController.xib in Resources */,
+				698F2D732C5B8CED000EFECD /* ProductDetailController.xib in Resources */,
 				698F2D412C5B72F3000EFECD /* Base in Resources */,
 				698F2D3C2C5B72F1000EFECD /* Base in Resources */,
+				698F2D5F2C5B7951000EFECD /* SettingController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +246,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698F2D582C5B793C000EFECD /* ProfileController.swift in Sources */,
+				698F2D722C5B8CED000EFECD /* ProductDetailController.swift in Sources */,
+				698F2D502C5B7689000EFECD /* FirstController.swift in Sources */,
+				698F2D492C5B739C000EFECD /* Coordinator.swift in Sources */,
 				698F2D392C5B72F1000EFECD /* ViewController.swift in Sources */,
+				698F2D5E2C5B7951000EFECD /* SettingController.swift in Sources */,
 				698F2D352C5B72F1000EFECD /* AppDelegate.swift in Sources */,
 				698F2D372C5B72F1000EFECD /* SceneDelegate.swift in Sources */,
+				698F2D682C5B8C90000EFECD /* CartController.swift in Sources */,
+				698F2D632C5B8C73000EFECD /* CategoriesController.swift in Sources */,
+				698F2D6D2C5B8CCB000EFECD /* ProductListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

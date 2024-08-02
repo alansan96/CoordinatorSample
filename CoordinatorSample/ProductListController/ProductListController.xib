@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductListController" customModule="CoordinatorSample" customModuleProvider="target">
+            <connections>
+                <outlet property="labelText" destination="QtK-yI-Jk5" id="gp0-Xv-7Fv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtK-yI-Jk5">
+                    <rect key="frame" x="16" y="416" width="361" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8t-HI-BdD">
+                    <rect key="frame" x="145" y="472.33333333333331" width="103" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Show Cart"/>
+                    <connections>
+                        <action selector="showCartTapped:" destination="-1" eventType="touchUpInside" id="pIN-Yl-qtF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FU3-HN-yM6">
+                    <rect key="frame" x="139.66666666666666" y="525.33333333333337" width="114" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Show Detail"/>
+                    <connections>
+                        <action selector="showDetail:" destination="-1" eventType="touchUpInside" id="CEI-BJ-Qj5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QtK-yI-Jk5" secondAttribute="trailing" constant="16" id="0Z6-VW-ZwT"/>
+                <constraint firstItem="T8t-HI-BdD" firstAttribute="top" secondItem="QtK-yI-Jk5" secondAttribute="bottom" constant="36" id="FSa-pS-XYy"/>
+                <constraint firstItem="QtK-yI-Jk5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="KI0-mD-XYL"/>
+                <constraint firstItem="QtK-yI-Jk5" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="LCG-R4-Oty"/>
+                <constraint firstItem="FU3-HN-yM6" firstAttribute="top" secondItem="T8t-HI-BdD" secondAttribute="bottom" constant="18" id="Ngh-ez-QIT"/>
+                <constraint firstItem="T8t-HI-BdD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="etd-kD-Pgr"/>
+                <constraint firstItem="FU3-HN-yM6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pa7-8J-xLe"/>
+                <constraint firstItem="QtK-yI-Jk5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sZl-cg-AqT"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
